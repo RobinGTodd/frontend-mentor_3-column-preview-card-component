@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 1em;
+    background-color: hsl(0, 0%, 95%);
+}
+
+footer {
+    display: block;
+    min-width: 100%;
+}
+
+.preview-card{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+.car {
+    width: 200px;
+    min-width: 200px;
+    height: 400px;
+    padding: 50px;
+}
+
+.car p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: .9em;
+    line-height: 1.6em;
+}
+
+.car h2 {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 2.2em;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+.car button {
+    width: 140px;
+    height: 45px;
+    color: blue;
+    border-style: none;
+    border-radius: 25px;
+    margin-top: 60px;
+    font-family: 'Lexend Deca';
+    font-size: .9em;
+}
+
+button {
+    background-color: hsl(0, 0%, 95%);
+}
+.orange button {
+    color: hsl(31, 77%, 52%);
+}
+
+.teal button {
+    color: hsl(184, 100%, 22%);
+}
+
+.darkgreen button {
+    color: hsl(179, 100%, 13%);
+}
+
+.orange {
+    background-color: hsl(31, 77%, 52%) ;
+}
+
+.teal {
+    background-color: hsl(184, 100%, 22%) ;
+}
+
+.darkgreen {
+    background-color: hsl(179, 100%, 13%);
+}

@@ -28,7 +28,7 @@ footer {
     flex-wrap: wrap;
     height: 400px;
     padding: 50px;
-    flex: 1 0px;
+    flex: 1 0;
 }
 
 .car p {
